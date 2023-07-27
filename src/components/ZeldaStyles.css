@@ -1,0 +1,106 @@
+
+/* .font:hover {
+        text-decoration: underline;
+        color: rgb(0, 56, 23);
+        cursor: pointer;
+    } */
+
+.font {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(10px + 2vmin);
+    padding: 2% 2% 2% 2%;
+    color: white;
+    justify-content: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.headerFont {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 45px;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+.navFont {
+    display: flex;
+    position:relative;
+    right: 15%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 2% 2% 2% 2%;
+    color: white;
+    text-align: start;
+    justify-content: center;
+}
+
+.navFont:hover {
+    text-decoration: underline;
+    color: rgb(18, 0, 117);
+    cursor: pointer;
+}
+
+.font-thick {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 2% 2% 2% 2%;
+}
+
+.defeat {
+    color: rgb(255, 0, 255) !important;
+}
+
+.victoryChild {
+    color: green !important;
+}
+
+.victoryAdult {
+    color: orangered !important;
+}
+
+.directory {
+    color: rgb(0, 0, 139);
+    padding-top: 20px;
+    font-size: larger;
+}
+  
+#container-bg {
+    background-image: url('./media/banner-triforce.jpg');
+    background-size: 100%;
+    background-position: bottom 225px right 0px;
+    position: relative;
+}
+    
+
+/* background-image: url('https://e1.pxfuel.com/desktop-wallpaper/445/263/desktop-wallpaper-102063-zelda-triforce-game-backgrounds-the-triforce.jpg'); */
+
+/* #container-bg:hover {
+    opacity: 90% !important;
+    background-color: rgb(0, 0, 0);
+} */
+
+.window-0:hover {
+    background-image: url('https://github.com/hector8th/zelda-portal/blob/main/src/components/media/skywardsword-banner.jpg') !important;
+    background-position: bottom 100px right 0px !important;
+}
+
+.window-1:hover {
+    background-image: url('./media/minishcap-banner.jpg') !important;
+    background-position: bottom 350px right 0px !important;
+}
+
+.window-2:hover {
+    background-image: url('./media/fourswords-banner.jfif') !important;
+    background-position: bottom 175px right 0px !important;
+}
+
+.window-3:hover {
+    background-image: url('./media/ocarinaoftime-banner.jpg') !important;
+    background-position: bottom 125px right 0px !important;
+}
