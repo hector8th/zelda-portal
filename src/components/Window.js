@@ -18,15 +18,15 @@ function Window(props) {
     const cssClass = `window-${id}`;
 
     // Dynamically create a new CSS style for this component
-    const dynamicStyle = 
-    `.${cssClass} {
-        background-image: 'url(${banner})',
-    },`;
+    // const dynamicStyle = 
+    // `.${cssClass} {
+    //     background-image: 'url(${banner})',
+    // },`;
 
     // Create a new style element and append it to the head of the document
     const styleElement = document.createElement('style');
     styleElement.type = 'text/css';
-    styleElement.appendChild(document.createTextNode(dynamicStyle));
+    // styleElement.appendChild(document.createTextNode(dynamicStyle));
     document.head.appendChild(styleElement);
     
     // function backgroundChange() {
