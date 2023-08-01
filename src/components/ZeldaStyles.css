@@ -85,22 +85,56 @@
     background-color: rgb(0, 0, 0);
 } */
 
+
+/* Skyward Sword */
 .window-0:hover {
-    background-image: url('https://github.com/hector8th/zelda-portal/blob/main/src/components/media/skywardsword-banner.jpg') !important;
-    background-position: bottom 100px right 0px !important;
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/skywardsword-banner.jpg') !important;
+    background-position: bottom 150px right 0px !important;
+    /* 100 */
 }
 
+/* The Minish Cap */
 .window-1:hover {
-    background-image: url('./media/minishcap-banner.jpg') !important;
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/minishcap-banner.jpg') !important;
+    background-position: bottom 600px right 0px !important;
+    /* 350 */
+}
+
+/* Four Swords */
+.window-2:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/fourswords-banner.jfif') !important;
+    background-position: bottom 300px right 0px !important;
+    /* 175 */
+}
+
+/* Ocarina of Time  */
+.window-3:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/ocarinaoftime-banner.jpg') !important;
+    background-position: bottom 200px right 0px !important;
+    /* 125 */
+}
+
+/* ******************** DEFEAT TIMELINE ******************** */
+/* A Link To The Past  */
+.window-4:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/alinktothepast-banner.jpg') !important;
+    background-position: bottom 275px right 0px !important;
+}
+
+/* Link's Awakening */
+.window-5:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/linkwsawakening-banner.jpg') !important;
     background-position: bottom 350px right 0px !important;
 }
 
-.window-2:hover {
-    background-image: url('./media/fourswords-banner.jfif') !important;
+/* Oracle of Seasons // Ages */
+.window-6:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/seasonsages-banner.jpg') !important;
     background-position: bottom 175px right 0px !important;
 }
 
-.window-3:hover {
-    background-image: url('./media/ocarinaoftime-banner.jpg') !important;
+/* A Link Between Worlds */
+.window-7:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/alinkbetweenworlds-banner.jpg') !important;
     background-position: bottom 125px right 0px !important;
 }

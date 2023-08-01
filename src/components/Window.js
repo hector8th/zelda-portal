@@ -18,14 +18,10 @@ function Window(props) {
     const cssClass = `window-${id}`;
 
     // Dynamically create a new CSS style for this component
-    const dynamicStyle = `
-    .${cssClass} {
-        backgroundImage: 'url(${banner})',
+    const dynamicStyle = 
+    `.${cssClass} {
+        background-image: 'url(${banner})',
     },`;
-
-    // .${cssClass}:hover {
-    //     backgroundImage: 'url(${ogbanner})',
-    // }`;
 
     // Create a new style element and append it to the head of the document
     const styleElement = document.createElement('style');

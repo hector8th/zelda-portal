@@ -1,12 +1,14 @@
 // import BannerSS from './media/skywardsword-banner.jpg';
 
+'https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/skywardsword-banner.jpg'
+'./media/skywardsword-banner.jpg'
+
 export const getZelda = () => [
     {
         id: 0,
         name: 'SKYWARD SWORD',
         year: '2011',
-        // banner: 'https://assets-prd.ignimgs.com/2021/02/23/zelda-skyward-sword-hd-button-1614064616471.jpg',
-        banner: './media/skywardsword-banner.jpg',
+        banner: 'https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/skywardsword-banner.jpg',
         // banner: {BannerSS},
         wikiPage: "https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Skyward_Sword"
     },
@@ -35,7 +37,7 @@ export const getZelda = () => [
         id: 4,
         name: 'A LINK TO THE PAST',
         year: '1991',
-        banner: 'https://github.com/hector8th/zelda-portal/blob/main/src/components/media/alinktothepast-banner.jpg',
+        banner: 'https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/alinktothepast-banner.jpg',
         // banner: './media/alinktothepast-banner.jpg',
         wikiPage: 'https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past'
     },
