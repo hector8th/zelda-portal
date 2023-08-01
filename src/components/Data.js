@@ -45,7 +45,7 @@ export const getZelda = () => [
         id: 5,
         name: "LINK'S AWAKENING",
         year: '1993',
-        banner: './media/linkwsawakening-banner.avif',
+        banner: './media/linkwsawakening-banner.webp',
         wikiPage: 'https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Link%27s_Awakening'
     },
     {
