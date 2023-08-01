@@ -127,13 +127,20 @@ export const getZelda = () => [
     },
     {
         id: 17,
+        name: 'HYRULE WARRIORS',
+        year: '2014',
+        banner: './media/hyrulewarriors-banner.png',
+        wikiPage: 'https://zelda.fandom.com/wiki/Hyrule_Warriors'
+    },
+    {
+        id: 18,
         name: 'BREATH OF THE WILD',
         year: '2017',
         banner: './media/breathwild-banner.jpg',
         wikiPage: 'https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild'
     },
     {
-        id: 18,
+        id: 19,
         name: 'TEARS OF THE KINGDOM',
         year: '2023',
         banner: './media/tearskingdom-banner.png',
