@@ -136,5 +136,71 @@
 /* A Link Between Worlds */
 .window-7:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/alinkbetweenworlds-banner.jpg') !important;
+    background-position: bottom 200px right 0px !important;
+}
+
+/* Tri Force Heroes  */
+.window-8:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/triforceheroes-banner.jpg') !important;
+    background-position: bottom 350px right 0px !important;
+}
+
+/* The Legend of Zelda */
+.window-9:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/zelda1-banner.jpg') !important;
+    background-position: bottom 300px right 0px !important;
+}
+
+/* Zelda II: The Adventures of Link */
+.window-10:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/zelda2-banner.png') !important;
     background-position: bottom 450px right 0px !important;
+}
+
+/* Majora's Mask */
+.window-11:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/majorasmask-banner.jpg') !important;
+    background-position: bottom 400px right 0px !important;
+}
+
+/* Twilight Princess */
+.window-12:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/twilightprincess-banner.jpg') !important;
+    background-position: bottom 400px right 0px !important;
+}
+
+/* Four Swords Adventures */
+.window-13:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/fourswordsadv-banner.jpg') !important;
+    background-position: bottom 200px right 0px !important;
+}
+
+/* The Wind Waker  */
+.window-14:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/windwaker-banner.jpg') !important;
+    background-position: bottom 350px right 0px !important;
+}
+
+/* The Phantom Hourglass */
+.window-15:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/phantomhourglass-banner.png') !important;
+    background-position: bottom 300px right 0px !important;
+}
+
+/* Spirit Tracks */
+.window-16:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/spirittracks-banner.jpg') !important;
+    background-position: bottom 450px right 0px !important;
+}
+
+/* Breath of the Wild */
+.window-17:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/breathwild-banner.jpg') !important;
+    background-position: bottom 400px right 0px !important;
+}
+
+/* Tears of the Kingdom */
+.window-18:hover {
+    background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/tearskingdom-banner.png') !important;
+    background-position: bottom 400px right 0px !important;
 }

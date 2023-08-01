@@ -115,7 +115,7 @@ export const getZelda = () => [
         id: 15,
         name: 'THE PHANTOM HOURGLASS',
         year: '2007',
-        banner: './media/phantomhourglass-banner.webp',
+        banner: './media/phantomhourglass-banner.png',
         wikiPage: 'https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_The_Phantom_Hourglass'
     },
     {
@@ -136,7 +136,7 @@ export const getZelda = () => [
         id: 18,
         name: 'TEARS OF THE KINGDOM',
         year: '2023',
-        banner: './media/tearskingdom-banner.webp',
+        banner: './media/tearskingdom-banner.png',
         wikiPage: 'https://zelda.fandom.com/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom'
     }
 ]
