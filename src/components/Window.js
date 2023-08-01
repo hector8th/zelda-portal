@@ -5,41 +5,13 @@ function Window(props) {
     console.log(banner);
     const cssClass = `window-${id}`;
 
-    function fontColourChange(x) {
-        const containerElement = document.getElementById('container-bg');
-        if (x => 4 && x <= 10){
-            containerElement.classList.add('defeat');
-            containerElement.classList.remove('child');
-            containerElement.classList.remove('adult');
-            containerElement.classList.remove('newTimeline');
-        }
-        else if (x => 11 && x <= 13) {
-            containerElement.classList.remove('defeat');
-            containerElement.classList.add('child');
-            containerElement.classList.remove('adult');
-            containerElement.classList.remove('newTimeline');
-        }
-        else if (x => 14 && x <= 16) {
-            containerElement.classList.remove('defeat');
-            containerElement.classList.remove('child');
-            containerElement.classList.add('adult');
-            containerElement.classList.remove('newTimeline');
-        }
-        else if (x => 17) {
-            containerElement.classList.remove('defeat');
-            containerElement.classList.remove('child');
-            containerElement.classList.remove('adult');
-            containerElement.classList.add('newTimeline');
-        }
-    }
-
     function wikiWebPage() {
         window.open(`${wikiPage}`, "_blank");
     }
     
     return (
         <>
-            <div onClick={wikiWebPage} onMouseOver={fontColourChange(id)}
+            <div onClick={wikiWebPage}
             className={`window font ${cssClass}`} id='container-bg'>
                 <div className='container' id={id}>
                     <div>

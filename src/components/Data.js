@@ -127,7 +127,7 @@ export const getZelda = () => [
     },
     {
         id: 17,
-        name: 'HYRULE WARRIORS',
+        name: '*HYRULE WARRIORS*',
         year: '2014',
         banner: './media/hyrulewarriors-banner.jpg',
         wikiPage: 'https://zelda.fandom.com/wiki/Hyrule_Warriors'

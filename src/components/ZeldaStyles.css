@@ -1,3 +1,7 @@
+text {
+    text-align: start;
+}
+
 .font {
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -60,10 +64,17 @@
     color: rgb(0, 204, 194) !important;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
+
 .directory {
-    color: rgb(0, 0, 139);
-    padding-top: 20px;
-    font-size: larger;
+    color: rgb(0, 13, 192);
+    text-align: start;
+    padding-top: 2%;
+    max-width: 700px;
+}
+
+.bold-underline {
+    text-decoration: underline;
+    font-size: large;
 }
   
 #container-bg {
@@ -106,42 +117,49 @@
 .window-4:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/alinktothepast-banner.jpg') !important;
     background-position: bottom 275px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* Link's Awakening */
 .window-5:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/linksawakening-banner.png') !important;
     background-position: bottom -110px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* Oracle of Seasons // Ages */
 .window-6:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/seasonsages-banner.jpg') !important;
     background-position: bottom 400px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* A Link Between Worlds */
 .window-7:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/alinkbetweenworlds-banner.jpg') !important;
     background-position: bottom 200px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* Tri Force Heroes  */
 .window-8:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/triforceheroes-banner.jpg') !important;
     background-position: bottom 350px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* The Legend of Zelda */
 .window-9:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/zelda1-banner.jpg') !important;
     background-position: bottom 300px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* Zelda II: The Adventures of Link */
 .window-10:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/zelda2-banner.png') !important;
     background-position: bottom 450px right 0px !important;
+    color: rgb(255, 0, 255) !important;
 }
 
 /* ******************** CHILD TIMELINE ******************** */
@@ -149,18 +167,21 @@
 .window-11:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/majorasmask-banner.jpg') !important;
     background-position: bottom 400px right 0px !important;
+    color: green !important;
 }
 
 /* Twilight Princess */
 .window-12:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/twilightprincess-banner.jpg') !important;
     background-position: bottom 400px right 0px !important;
+    color: green !important;
 }
 
 /* Four Swords Adventures */
 .window-13:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/fourswordsadv-banner.jpg') !important;
     background-position: bottom 400px right 0px !important;
+    color: green !important;
 }
 
 /* ******************** ADULT TIMELINE ******************** */
@@ -168,18 +189,21 @@
 .window-14:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/windwaker-banner.jpg') !important;
     background-position: bottom 900px right 0px !important;
+    color: rgb(182, 42, 0) !important;
 }
 
 /* The Phantom Hourglass */
 .window-15:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/phantomhourglass-banner.png') !important;
     background-position: bottom 325px right 0px !important;
+    color: rgb(182, 42, 0) !important;
 }
 
 /* Spirit Tracks */
 .window-16:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/spirittracks-banner.jpg') !important;
     background-position: bottom 425px right 0px !important;
+    color: rgb(182, 42, 0) !important;
 }
 
 /* ******************** TIMELINE CONVERGENCE ******************** */
@@ -187,16 +211,22 @@
 .window-17:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/hyrulewarriors-banner.jpg') !important;
     background-position: bottom 400px right 0px !important;
+    color: rgb(0, 204, 194) !important;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 /* Breath of the Wild */
 .window-18:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/breathwild-banner.jpg') !important;
     background-position: bottom 500px right 0px !important;
+    color: rgb(0, 204, 194) !important;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 /* Tears of the Kingdom */
 .window-19:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/tearskingdom-banner.png') !important;
     background-position: bottom 350px right 0px !important;
+    color: rgb(0, 204, 194) !important;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
