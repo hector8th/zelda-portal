@@ -1,10 +1,3 @@
-
-/* .font:hover {
-        text-decoration: underline;
-        color: rgb(0, 56, 23);
-        cursor: pointer;
-    } */
-
 .font {
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -55,11 +48,11 @@
     color: rgb(255, 0, 255) !important;
 }
 
-.victoryChild {
+.child {
     color: green !important;
 }
 
-.victoryAdult {
+.adult {
     color: rgb(182, 42, 0) !important;
 }
 
@@ -193,7 +186,7 @@
 /* Hyrule Warriors */
 .window-17:hover {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/hyrulewarriors-banner.jpg') !important;
-    background-position: bottom 500px right 0px !important;
+    background-position: bottom 400px right 0px !important;
 }
 
 /* Breath of the Wild */
