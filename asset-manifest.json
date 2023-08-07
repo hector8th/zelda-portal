@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zelda-portal/static/css/main.0a834978.css",
-    "main.js": "/zelda-portal/static/js/main.0cfbb550.js",
+    "main.js": "/zelda-portal/static/js/main.28da24c8.js",
     "static/js/787.8e4bd055.chunk.js": "/zelda-portal/static/js/787.8e4bd055.chunk.js",
     "static/media/Logo_Triforce.png": "/zelda-portal/static/media/Logo_Triforce.3d34ab2aa3f4ae3564b8.png",
     "index.html": "/zelda-portal/index.html",
     "main.0a834978.css.map": "/zelda-portal/static/css/main.0a834978.css.map",
-    "main.0cfbb550.js.map": "/zelda-portal/static/js/main.0cfbb550.js.map",
+    "main.28da24c8.js.map": "/zelda-portal/static/js/main.28da24c8.js.map",
     "787.8e4bd055.chunk.js.map": "/zelda-portal/static/js/787.8e4bd055.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a834978.css",
-    "static/js/main.0cfbb550.js"
+    "static/js/main.28da24c8.js"
   ]
 }
