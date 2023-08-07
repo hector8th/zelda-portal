@@ -57,6 +57,21 @@ text {
     font-family: 'Poppins', sans-serif !important;
 }
 
+.footerFont {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(10px + 1vmin);
+    padding-bottom: 2%;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+}
+
+.footerFont:hover {
+    text-decoration: underline;
+    color: rgb(18, 0, 117);
+    cursor: pointer;
+}
+
 .defeat {
     color: rgb(255, 0, 255) !important;
 }
