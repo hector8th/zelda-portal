@@ -1,6 +1,6 @@
 import React from 'react'
 
-document.getElementById('resume-link').onclick = function() {
+function resumeLink() {
     window.open('https://hector8th.github.io/resume', "_blank");
 }
 
@@ -10,7 +10,7 @@ function Footer() {
             <text className='directory'>
                 ** I do not own any Zelda or Nintendo-related content **
             </text>
-            <p id='resume-link' className='footerFont'>
+            <p onClick={resumeLink} className='footerFont'>
                 About Me
             </p>
         </div>
