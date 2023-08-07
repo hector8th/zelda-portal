@@ -119,7 +119,7 @@ ul {
   opacity: 100%;
   overflow-y: scroll;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 35px;
   position: absolute;
   top: 180px;
@@ -155,6 +155,23 @@ ul {
   text-align: start;
   justify-content: center;
   align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.msg-box {
+  height: 125px;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100px;
 }
 
 .footer {

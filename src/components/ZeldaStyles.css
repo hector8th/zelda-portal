@@ -48,6 +48,15 @@ text {
     padding: 2% 2% 2% 2%;
 }
 
+.font-thick > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contact-font {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .defeat {
     color: rgb(255, 0, 255) !important;
 }

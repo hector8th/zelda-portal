@@ -1,5 +1,6 @@
 import React from 'react'
 import Window from './Window.js'
+import Contact from './Contact.js'
 import { getZelda } from './Data.js'
 
 function Content() {
@@ -7,10 +8,6 @@ function Content() {
     return (
         <div className='content' id='content-container'>
             <div className='content-window hide' id='timelines-window'>
-                <text className='font-thick directory'>
-                    This is the Zelda Timeline as of 2023! Below is a chronological list 
-                    of The Legend of Zelda games including <text className='newTimeline'>Tears of the Kingdom</text>!
-                </text>
                 <text className='font-thick'>
                     <text>
                         <text className='directory'>The </text>Timeline Before the Split
@@ -40,22 +37,31 @@ function Content() {
                         <text className='newTimeline'>Timeline after the reconvergence of all 3 eras</text>
                         <text className='directory'> is in cyan.</text>
                     </text>
-                </text>
-                <text className='font-thick directory'>
-                    ** Though it is not an official part of the Zelda timeline, I took
-                    the liberty of adding <text className='newTimeline bold-underline'>Hyrule Warriors</text> to the timeline because it is the
-                    only game before Breath of the Wild that each timeline is merged together
-                    leaving the map of Hyrule resembling what it looks like in the latter game.
+                    <br />
+                    <br />
+                    <text className='directory'>
+                        Clicking on each banner will send you to a thorough Wiki page of the respective Zelda title!
+                    </text>
                 </text>
                 {
                     zeldaList.map((tl) => <Window key={tl.id} Timeline = {tl}/>)
                 }
             </div>
             <div className='content-window hide' id='about-window'>
-                About Us here
+            <text className='font-thick directory'>
+                    This is the Zelda Timeline as of 2023 - webpage created by <text className='child'>Uzezi Hector Atto</text>!<br/>
+                    In the <text className='bold-underline'>Timelines</text> tab is a chronological list 
+                    of The Legend of Zelda games including <text className='newTimeline'>Tears of the Kingdom</text>!
+                </text>
+                <text className='font-thick directory'>
+                    ** Though it is not an official part of the Zelda timeline, I took
+                    the liberty of adding <text className='newTimeline bold-underline'>Hyrule Warriors</text> to the timeline because it is the
+                    only game before <text className='newTimeline bold-underline'>Breath of the Wild</text> that merges each timeline together
+                    leaving the map of Hyrule resembling what it looks like in the latter game.
+                </text>
             </div>
             <div className='content-window hide' id='contact-window'>
-                Contact here
+                <Contact />
             </div>
         </div>
     )
