@@ -14,7 +14,7 @@ ul {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -23,9 +23,9 @@ ul {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -38,7 +38,7 @@ ul {
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 /* ============================================================================================== */
 
@@ -51,6 +51,7 @@ ul {
   background-color: rgb(124, 0, 0);
   background-size: 450px;
   background-repeat: repeat;
+  max-height: 800px;
   height: 100%;
   min-width: 450px;
   width: 100%;
@@ -63,7 +64,6 @@ ul {
   align-items: center;
   justify-content: flex-start;
   background-image: linear-gradient(to right, black, black, darkgreen);
-  /* max-width: 1280px; */
   width: 100%;
   max-height: 150px;
   height: 100%;
