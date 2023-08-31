@@ -2,12 +2,41 @@ import React from 'react'
 import Window from './Window.js'
 import Contact from './Contact.js'
 import { getZelda } from './Data.js'
+import X from './media/x.png'
+
+function unhideMobileTimelines() {
+    const timeWindow = document.getElementById('timelines-window');
+    const aboutWindow = document.getElementById('about-window');
+    const contactWindow = document.getElementById('contact-window');
+    timeWindow.classList.toggle('hide');
+    aboutWindow.classList.add('hide');
+    contactWindow.classList.add('hide');
+}
+
+function unhideMobileAboutUs() {
+    const timeWindow = document.getElementById('timelines-window');
+    const aboutWindow = document.getElementById('about-window');
+    const contactWindow = document.getElementById('contact-window');
+    timeWindow.classList.add('hide');
+    aboutWindow.classList.toggle('hide');
+    contactWindow.classList.add('hide');
+}
+
+function unhideMobileContact() {
+    const timeWindow = document.getElementById('timelines-window');
+    const aboutWindow = document.getElementById('about-window');
+    const contactWindow = document.getElementById('contact-window');
+    timeWindow.classList.add('hide');
+    aboutWindow.classList.add('hide');
+    contactWindow.classList.toggle('hide');
+}
 
 function Content() {
     const zeldaList = getZelda();
     return (
         <div className='content' id='content-container'>
             <div className='content-window hide' id='timelines-window'>
+                <img id='x-btn' className='x-logo' src={X} alt='cancel' onClick={unhideMobileTimelines}/>
                 <text className='font-thick'>
                     <text>
                         <text className='directory'>The </text>Timeline Before the Split
@@ -48,7 +77,8 @@ function Content() {
                 }
             </div>
             <div className='content-window hide' id='about-window'>
-            <text className='font-thick directory'>
+                <img id='x-btn' className='x-logo' src={X} alt='cancel' onClick={unhideMobileAboutUs}/>
+                <text className='font-thick directory'>
                     This is the Zelda Timeline as of 2023 - webpage created by <text className='child'>Uzezi Hector Atto</text>!<br/>
                     In the <text className='bold-underline'>Timelines</text> tab is a chronological list 
                     of The Legend of Zelda games including <text className='newTimeline'>Tears of the Kingdom</text>!
@@ -61,6 +91,7 @@ function Content() {
                 </text>
             </div>
             <div className='content-window hide' id='contact-window'>
+                <img id='x-btn' className='x-logo' src={X} alt='cancel' onClick={unhideMobileContact}/>
                 <Contact />
             </div>
         </div>
@@ -69,21 +100,3 @@ function Content() {
 
 export default Content
 
-// import React from 'react'
-// import JobSection from './JobSection.js';
-// import { getJobs } from './JobData.js'
-
-// function JobWindow() {
-
-//     const jobList = getJobs();
-    
-//     return (
-//         <div className='App-job-info hide' id='job-window'>
-//             {
-//                 jobList.map((job) => <JobSection Jobs = {job} />)
-//             }
-//         </div>
-//     )
-// }
-
-// export default JobWindow

@@ -53,6 +53,11 @@ text {
     margin-bottom: 0px;
 }
 
+.font-thick > text {
+    position: relative;
+    right: 15px;
+}
+
 .contact-font {
     font-family: 'Poppins', sans-serif !important;
 }
@@ -93,7 +98,7 @@ text {
     color: rgb(0, 13, 192);
     text-align: start;
     padding-top: 2%;
-    max-width: 700px;
+    max-width: 450px;
 }
 
 .bold-underline {
@@ -104,7 +109,7 @@ text {
 #container-bg {
     background-image: url('https://raw.githubusercontent.com/hector8th/zelda-portal/main/src/components/media/banner-triforce.jpg');
     background-size: 100%;
-    background-position: bottom 225px right 0px;
+    background-position: bottom 350px right 0px;
     position: relative;
 }
 

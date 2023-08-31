@@ -11,7 +11,11 @@ ul {
 }
 
 .App {
+  display: block;
   text-align: center;
+  /* overflow-x: hidden; */
+  height: 100%;
+  width: 100%;
 }
 
 /* .App-logo {
@@ -99,9 +103,9 @@ ul {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-width: 600px;
+  min-width: 450px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(0, 0, 0, 0.425);
   padding: 0px;
 }
 
@@ -112,12 +116,14 @@ ul {
   align-items: flex-start;
   justify-content: flex-start;
   color: rgb(46, 0, 131) !important; 
-  font-size: calc(10px + 1.25vmin) !important;
+  font-size: calc(8.5px + 1vmin) !important;
+  min-width: 400px;
   width: 100%;
-  height: 350px;
+  height: 375px;
   z-index: 10 !important;
   opacity: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
   padding-left: 30px;
   padding-top: 30px;
   padding-bottom: 35px;
@@ -128,6 +134,16 @@ ul {
   transform: translateX(0%);
 }
 
+.x-logo {
+  display: none;
+  width: 20px !important;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  z-index: 20;
+  right: 25px;
+  bottom: 25px;
+}
+
 .window {
   display: flex;
   flex-direction: column;
@@ -135,8 +151,7 @@ ul {
   justify-content: center;
   align-items: center;
   min-width: 400px;
-  width: 1000px;
-  width: 80vw;
+  width: 77vw;
   cursor: pointer;
   border: 1px solid black;
   position: relative;

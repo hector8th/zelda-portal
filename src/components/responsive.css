@@ -1,8 +1,56 @@
 @media screen and (min-width: 320px) and (max-width: 425px) {
-    /* .navFont {
-        color: black !important;
-    } */
-    
+    .App {
+        max-height: 550px !important;
+    }
+/* ================================= B A C K G R O U N D ======================================== */
+/* ============================================================================================== */
+    .background {
+        max-height: 550px !important;
+        overflow-x: hidden;
+    }
+/* ===================================== H E A D E R ============================================ */
+/* ============================================================================================== */
+    .header-logo {
+        height: 80px !important;
+    }
+    .header {
+        background-image: linear-gradient(to right, black, black, darkgreen, darkgreen) !important;
+        height: 100px !important;
+    }
+    .headerFont {
+        font-size: 22px !important;
+        text-align: start !important;
+        left: 10% !important;
+    }
+
+/* ================================== N A V I G A T O R ========================================= */
+/* ============================================================================================== */
+    .nav {
+        min-width: 90px !important;   
+    }
+    .navFont {
+        font-size: 15px !important;
+        right: 25% !important;
+    }
+
+/* ==================================== C O N T E N T =========================================== */
+/* ============================================================================================== */
+    .content-window {
+        top: 100px !important;
+        left: 10px !important;
+        height: 300px !important;
+    }
+    .x-logo {
+        display: flex !important;
+    }
+    .font-thick {
+        font-size: calc(7px + 1.5vmin) !important;
+    }
+    .window {
+        height: 75px !important;
+        width: 10vw !important;
+        /* ***** MAKE THE WINDOW PANELS THINNER, AND SOMEHOW CENTER THEM IN MOBILE VIEW ***** */
+    }
 }
 
 
